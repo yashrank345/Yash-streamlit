@@ -96,8 +96,8 @@ def main():
               shap_values = shap.TreeExplainer(model).shap_values(pred_arr)
               st.write(f"For prediction {prediction}") 
               shap.force_plot(shap.TreeExplainer(model).expected_value[0], shap_values[0],
-                              pred_arr, feature_names=features, matplotlib=True,show=False).savefig("pred_force_plot.jpg", bbox_inches='tight')
-             img = Image.open("pred_force_plot.jpg")
+                              pred_arr, feature_names=features, matplotlib=True,show=False).savefig("banner-picture.jpeg", bbox_inches='tight')
+             img = Image.open("banner-picture.jpeg")
 
 # render the shap plot on front-end to explain predictions
               st.image(img, caption='Model explanation using shap')
