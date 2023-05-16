@@ -69,11 +69,12 @@ def main():
             [Linkedin](https://www.linkedin.com/in/avi-kumar-talaviya-739153147/) |
             [Kaggle](https://www.kaggle.com/avikumart) 
             """)
-    a, b, c = st.columns([0.2, 0.6, 0.2])
-    with b:
-        st.image("banner-picture.jpeg", use_column_width=True)
-        
-   # description about the project and code files       
+   a,b,c = st.columns([0.2,0.6,0.2])
+with b:
+  st.image("vllkyt19n98psusds8.jpg", use_column_width=True)
+
+
+# description about the project and code files            
 st.subheader("🧾Description:")
 st.text("""This data set is collected from Addis Ababa Sub-city police departments for master's research work. 
 The data set has been prepared from manual records of road traffic accidents of the year 2017-20. 
@@ -89,7 +90,8 @@ The task is to classify this variable based on the other 31 features step-by-ste
 The metric for evaluation will be f1-score
 """)
 
-st.markdown("Please find GitHub repository link of project: [Click Here](https://github.com/avikumart/Road-Traffic-Severity-Classification-Project)")          
-  
-# run the main function        
-main()
+st.markdown("Please find GitHub repository link of project: [Click Here](https://github.com/avikumart/Road-Traffic-Severity-Classification-Project)")                  
+   
+# run the main function               
+if __name__ == '__main__':
+   main()
