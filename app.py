@@ -93,10 +93,10 @@ def main():
        st.markdown("""Reach out to me on: [Twitter](https://twitter.com/avikumart_) |
        [Linkedin](https://www.linkedin.com/in/avi-kumar-talaviya-739153147/) |
        [Kaggle](https://www.kaggle.com/avikumart) 
-       """)a,b,c = st.columns([0.2,0.6,0.2])
-with b:
- st.image("banner-picture.jpeg", use_column_width=True)
-
+       """)
+      a, b, c = st.columns([0.2, 0.6, 0.2])
+    with b:
+        st.image("banner-picture.jpeg", use_column_width=True)
 
 # description about the project and code files       
 st.subheader("🧾Description:")
